@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-25T16:25:01 IST" name="Default suite" finished-at="2022-11-25T16:25:04 IST" duration-ms="3840">
+    <groups>
+    </groups>
+    <test started-at="2022-11-25T16:25:01 IST" name="Default test" finished-at="2022-11-25T16:25:04 IST" duration-ms="3840">
+      <class name="testng.TestFrame">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testng.TestFrame@7880cdf3]" started-at="2022-11-25T16:25:01 IST" name="beforeClass" finished-at="2022-11-25T16:25:02 IST" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TestLaunchFrames()[pri:1, instance:testng.TestFrame@7880cdf3]" started-at="2022-11-25T16:25:02 IST" name="TestLaunchFrames" finished-at="2022-11-25T16:25:04 IST" duration-ms="1542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLaunchFrames -->
+        <test-method signature="TestFramesInPage()[pri:2, instance:testng.TestFrame@7880cdf3]" started-at="2022-11-25T16:25:04 IST" name="TestFramesInPage" finished-at="2022-11-25T16:25:04 IST" depends-on-methods="testng.TestFrame.TestLaunchFrames" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFramesInPage -->
+        <test-method signature="TestFrameNavigation()[pri:3, instance:testng.TestFrame@7880cdf3]" started-at="2022-11-25T16:25:04 IST" name="TestFrameNavigation" finished-at="2022-11-25T16:25:04 IST" depends-on-methods="testng.TestFrame.TestFramesInPage" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFrameNavigation -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testng.TestFrame@7880cdf3]" started-at="2022-11-25T16:25:04 IST" name="afterClass" finished-at="2022-11-25T16:25:04 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testng.TestFrame -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
